@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Translate English To Pig Latin</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Instructions</h2>
+        <p>
+            <ul>
+                <li>
+                    The user enters text in the first multi-line text box and clicks the Translate
+                    button or presses the Enter key.
+                </li>
+                <li>
+                    The application translates the text to Pig Latin and displays it in the second
+                    multi-line text box.
+                </li>
+                <li>To clear both text boxes, the user clicks the Clear button.</li>
+            </ul>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Specifications</h2>
+        <ul>
+            <li>if a word starts with a vowel, just add way to the end of the word.</li>
+            <li>If a word starts with a consonant, move the consonants before the first vowel to the end of the word and add ay.</li>
+            <li>If a word starts with the letter Y, the Y should be treated as a consonant. If the Y appears anywhere else in the word,
+            it should be treated as a vowel.</li>
+            <li>Keep the case of the original word whether it's uppercase (TEST), title case (Test), or lowercase (test).</li>
+            <li>Keep all punctuation at the end of the translated word.</li>
+            <li>Translate words with contractions. For example, can’t should be an’tcay.</li>
+            <li>Don’t translate words that contain numbers or symbols. For example, 123
+                should be left as 123, and bill@microsoft.com should be left as
+                bill@microsoft.com.
+            </li>
+            <li>Check that the user has entered text before performing the translation.</li>
+        </ul>
+    </div>
+</div>
